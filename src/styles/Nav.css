@@ -1,0 +1,104 @@
+nav {
+    height: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    color: rgb(254, 209, 54);
+    font-family: 'Kaushan Script', cursive;
+    background: transparent;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+h4 {
+    display: flex;
+    font-size: 2vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hamburger, .side-menu {
+    display: none;
+    border: 0;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 13px;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    background: rgb(254, 209, 54);
+}
+
+div.side-menu, .side-menu-open, .side-menu-close  {
+    width:100vw;
+    height: 27vw;
+    background: #303032;
+    position: fixed;
+    top: 0;
+    transform: translateY(-610px);
+    margin-top: 6vw;
+}
+.side-menu-open {
+    display: block;
+    animation-name: open;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    background: #303032;
+}
+
+.side-menu-close {
+    display: block;
+    animation: close .5s forwards linear ;
+}
+
+@keyframes open {
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes close {
+    from {
+        transform: translateY(0px)
+    }
+    to {
+        transform: translateY(-610px);
+    }
+}
+
+img {
+    width: 50px;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+@media (max-width: 1093px) {
+    li {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .side-menu-open{
+        z-index: -1;
+    }
+    .side-menu-close {
+        z-index: -1;
+    }
+}
+
+@media(min-width: 945px) {
+    .side-menu-open{
+        display: none;
+    }
+}
