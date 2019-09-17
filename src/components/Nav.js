@@ -17,7 +17,7 @@ class Nav extends React.Component {
     }
 
     render() {
-        // const {menuOpenStatus} = this.state; // line 42 No this.state
+        // const {menuOpenStatus} = this.state; // line 40 No this.state
         return (
             <>
                 <nav>
@@ -51,5 +51,4 @@ class Nav extends React.Component {
 
 export default Nav;
 
-/* <img  */
-// src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt="hamburger"/>
+// <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt="hamburger"/>

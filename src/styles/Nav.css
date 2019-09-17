@@ -1,12 +1,12 @@
 nav {
-    height: 5vw;
+    height: 6vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: transparent;
     color: rgb(254, 209, 54);
     font-family: 'Kaushan Script', cursive;
-    background: transparent;
+    background: transparent #303032;;
 }
 
 ul {
@@ -14,14 +14,6 @@ ul {
     display: flex;
     justify-content: space-around;
     width: 40vw;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
-}
-
-h4 {
-    display: flex;
-    font-size: 2vw;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -46,6 +38,7 @@ div.side-menu, .side-menu-open, .side-menu-close  {
     top: 0;
     transform: translateY(-610px);
     margin-top: 6vw;
+    
 }
 .side-menu-open {
     display: block;
@@ -54,6 +47,14 @@ div.side-menu, .side-menu-open, .side-menu-close  {
     animation-fill-mode: forwards;
     animation-timing-function: linear;
     background: #303032;
+}
+
+h4 {
+    display: flex;
+    font-size: 2vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 9vw;
 }
 
 .side-menu-close {

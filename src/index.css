@@ -1,6 +1,7 @@
 body {
   background-image: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
   background-size: cover; 
+  background-repeat: no-repeat;
   /* margin: 0; */
   /* width: 100vw; */
   /* height: vh; */
