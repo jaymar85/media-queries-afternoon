@@ -37,7 +37,7 @@ class Nav extends React.Component {
                         </ul>
                     </div>
                 </nav>
-                <div className={`${this.state.menuOpenStatus}`}>
+                <div id='hamburger-menu' className={`${this.state.menuOpenStatus}`}>
                     <h4>SERVICES</h4>
                     <h4>PORTFOLIO</h4>
                     <h4>ABOUT</h4>

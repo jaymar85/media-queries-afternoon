@@ -63,6 +63,9 @@ h4 {
 }
 
 @keyframes open {
+    from {
+        transform: translateY(-610px)
+    }
     to {
         transform: translateY(0px);
     }
@@ -98,8 +101,8 @@ img {
     }
 }
 
-@media(min-width: 945px) {
-    .side-menu-open{
+@media(min-width: 1093px) {
+    #hamburger-menu {
         display: none;
     }
 }
